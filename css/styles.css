@@ -1,0 +1,329 @@
+/*------------------------------------------ЗМІННІ------------------------------------------*/
+
+:root {
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --accent-color: #2196f3;
+    --active-color: #fff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--title-text-color);
+}
+
+/*-----------------------------------------ШАПКА САЙТА--------------------------------------------*/
+
+.header {
+}
+
+.navigation {
+}
+
+.text-link {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.studio {
+    color: #000;
+}
+
+.navigation-link {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.link:hover,
+:focus {
+    color: var(--accent-color);
+}
+
+.list-contacts {
+    list-style-type: none;
+}
+
+.contact-link {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.contact-link:hover,
+:focus {
+    color: var(--accent-color);
+}
+
+/*-----------------------------------------ОСНОВНИЙ КОНТЕНТ СТУДІЇ-------------------------------------*/
+
+.main {
+}
+
+/*-----------------------------------------ШАПКА КОНТЕНТУ---------------------------------------*/
+
+.hero {
+    background-color: #2f303a;
+}
+
+.title-hero {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--active-color);
+}
+
+.button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.89;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: var(--active-color);
+    background-color: #188ce8;
+}
+
+.button:hover,
+:focus {
+    color: var(--active-color);
+    background-color: var(--accent-color);
+}
+
+/*-----------------------------------------НАШІ ОСОБЛИВОСТІ--------------------------------------*/
+
+.feature {
+}
+
+.title {
+}
+.list {
+    list-style-type: none;
+}
+.text-list {
+}
+
+.title-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.paragraph {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/*-----------------------------------------ЧИМ МИ ЗАЙМАЄМОСЬ----------------------------------------*/
+
+.development {
+}
+
+.title-development {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.list-development {
+    list-style-type: none;
+}
+
+.text-list-development {
+}
+
+/*-----------------------------------------НАША КОМАНДА----------------------------------------------*/
+
+.team {
+}
+
+.title-team {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.list-team {
+    list-style-type: none;
+}
+
+.text-list-team {
+}
+
+.title-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.specialty {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/*-----------------------------------------ОСНОВНИЙ КОНТЕНТ ПОРТФПЛІО----------------------------------*/
+
+.portfolio {
+}
+
+/*-----------------------------------------ФІЛЬТРИ ПРОЕКТІВ-------------------------------------------*/
+
+.section-filter {
+}
+.title-filter {
+}
+.list-filter {
+    list-style-type: none;
+}
+
+.button-filter {
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.button-filter:hover,
+:focus {
+    color: var(--active-color);
+    background-color: var(--accent-color);
+}
+
+/*-----------------------------------------ПРОЕКТИ-------------------------------------------------*/
+
+.project {
+}
+.title-project {
+}
+
+.list-project {
+    list-style-type: none;
+}
+
+.text-list-project {
+}
+
+.title-text-project {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.paragraph-project {
+    font-size: 16px;
+    line-height: 1.89;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/*-----------------------------------------ПІДВАЛ------------------------------------------------*/
+
+.footer {
+    background: #2f303a;
+}
+
+.text-link-footer {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.footer-studio {
+    color: #000;
+}
+
+.address {
+}
+
+.paragraph-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--active-color);
+}
+
+.list-address {
+    list-style-type: none;
+}
+
+.contact-link-address {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-link-address:hover,
+:focus {
+    color: var(--accent-color);
+}
