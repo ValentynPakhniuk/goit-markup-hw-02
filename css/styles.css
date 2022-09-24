@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+
 :root {
     --title-text-color: #212121;
     --primary-text-color: #757575;
@@ -10,7 +18,7 @@ body {
     color: var(--title-text-color);
 }
 /*-----------------------------------------ШАПКА САЙТА--------------------------------------------*/
-.text-link {
+.text-link,.text-link-footer {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -18,6 +26,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
+
 
 .studio {
     color: #000;
@@ -58,13 +67,13 @@ body {
 /*-----------------------------------------ШАПКА КОНТЕНТУ---------------------------------------*/
 .hero {
     background-color: #2f303a;
+    text-align: center;
 }
 
 .title-hero {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--active-color);
@@ -76,11 +85,11 @@ body {
     line-height: 1.89;
     display: flex;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
     color: var(--active-color);
     background-color: #188ce8;
+    margin: 0 auto;
 }
 
 .button:hover,
@@ -89,10 +98,18 @@ body {
     background-color: var(--accent-color);
 }
 /*-----------------------------------------НАШІ ОСОБЛИВОСТІ--------------------------------------*/
-.title,
-.title-filter {
-    opacity: 0;
-}
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
 
 .title-text {
     font-size: 14px;
@@ -102,14 +119,20 @@ body {
     color: var(--title-text-color);
 }
 
-.paragraph {
+.paragraph,.paragraph-address,
+.contact-link-address {
+    font-family: 'Roboto';
+        font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
+.paragraph-address {
+    color: var(--active-color);
+}
 /*-----------------------------------------ЧИМ МИ ЗАЙМАЄМОСЬ----------------------------------------*/
-.title-development {
+.title-development,.title-team {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -117,13 +140,6 @@ body {
     color: var(--title-text-color);
 }
 /*-----------------------------------------НАША КОМАНДА----------------------------------------------*/
-.title-team {
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
-}
 
 .title-name {
     font-weight: 500;
@@ -142,6 +158,21 @@ body {
     color: var(--primary-text-color);
 }
 /*-----------------------------------------ФІЛЬТРИ ПРОЕКТІВ-------------------------------------------*/
+.list-filter {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+}
+.list-project {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+}
+
+
 .button-filter {
     cursor: pointer;
     font-family: 'Roboto';
@@ -177,32 +208,11 @@ body {
     background: #2f303a;
 }
 
-.text-link-footer {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--accent-color);
-}
-
 .footer-studio {
     color: var(--active-color);
 }
 
-.paragraph-address {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--active-color);
-}
-
 .contact-link-address {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
